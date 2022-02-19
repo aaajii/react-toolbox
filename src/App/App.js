@@ -1,7 +1,7 @@
 import logo from './logo.svg'
 import './App.css'
 import SampleChart from '../components/SampleChart'
-import { TVChartContainer } from '../components/TVChart'
+// import { TVChartContainer } from '../components/TVChart'
 
 function App() {
   return (
