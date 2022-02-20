@@ -1,6 +1,8 @@
 import logo from './logo.svg'
 import './App.css'
 import SampleChart from '../components/SampleChart'
+import PieChart from '../components/Visx/PieChart'
+import TemperatureBarStack from '../components/Visx/TemperatureBarStack'
 // import { TVChartContainer } from '../components/TVChart'
 
 function App() {
@@ -18,6 +20,12 @@ function App() {
 
       {/* <h1> TVChart that i've stolen online hehe</h1>
       <TVChartContainer token={''} /> */}
+
+      <h1> Some Pie Chart thingy (hahahaaha it's growing) </h1>
+      <PieChart />
+
+      <h1> Some Bar Chart thingy </h1>
+      <TemperatureBarStack />
     </div>
   )
 }
