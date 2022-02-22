@@ -4,6 +4,7 @@ import SampleChart from '../components/SampleChart'
 import PieChart from '../components/Visx/PieChart'
 import TemperatureBarStack from '../components/Visx/TemperatureBarStack'
 import SamplePie from '../components/Visx/SamplePie'
+import Card from '../components/Card'
 // import { TVChartContainer } from '../components/TVChart'
 
 function App() {
@@ -30,6 +31,8 @@ function App() {
 
       <h1> Simple Pie Chart</h1>
       <SamplePie width={600} height={600}/>
+
+      <Card />
     </div>
   )
 }
