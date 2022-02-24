@@ -1,8 +1,16 @@
 module.exports = {
   // the content sources for your project to preserve
     content: ['./pages/**/*.{js,ts,jsx,tsx}'],
+    darkMode: false, // or 'media' or 'class'
     theme: {
       extend: {
+        backgroundImage: (theme) => ({
+          mac: "url('./assets/mac.webp')",
+        }),
+        width: {
+          99: 'calc(100% - 16rem);' /* get the width of the main content from lg:viewport by dividing
+          (the total width by the width of the side navigation) */,
+        },
         animation: {
           // if you are using the animate variant of the modal
           modal: 'modal 0.5s',
