@@ -16,12 +16,9 @@ function App() {
       </header>
 
       <hr />
-
+      {/* 
       <h1> Sample Chart from Kaktana</h1>
       <SampleChart />
-
-      {/* <h1> TVChart that i've stolen online hehe</h1>
-      <TVChartContainer token={''} /> */}
 
       <h1> Some Pie Chart thingy (hahahaaha it's growing) </h1>
       <PieChart />
@@ -33,6 +30,7 @@ function App() {
       <SamplePie width={600} height={600}/>
 
       <Card />
+    */}
     </div>
   )
 }
